@@ -1,0 +1,9 @@
+# Desvio Condicional
+num = input('Digite um número: ')
+
+# Verificar se o usuário digitou um NÚMERO
+if num.isnumeric():
+    print('Número VÁLIDO!')
+else:
+    print('Número INVÁLIDO')
+    
